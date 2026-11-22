@@ -64,6 +64,43 @@
       ],
       "ast": [
         "aggregate/ast/4534448a5a141872b3bb917e69b69b980ae6841c/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/4534448a5a141872b3bb917e69b69b980ae6841c.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "cython",
+          "ecosystem": "PYPI",
+          "version": "0.25",
+          "githubOrg": "cython",
+          "githubRepo": "cython",
+          "githubCommit": "f568e1463e4dc9d45325713cce740ace182d7874",
+          "githubTag": "0.25",
+          "githubUrl": "https://github.com/cython/cython",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "9.2.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "ae1d0ff57b8bd4252da9ade7353523ac0ac73281",
+          "githubTag": "9.2.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.2.1",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "3895f9829fc0e51882981773a823a658eb1d1636",
+          "githubTag": "v84.2.1",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/setuptools/_distutils/command/build_ext.py"
+        }
       ]
     }
   ],
