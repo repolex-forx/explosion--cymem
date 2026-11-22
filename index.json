@@ -3,6 +3,11 @@
   "repo": "cymem",
   "versions": [
     {
+      "commit": "4534448a5a141872b3bb917e69b69b980ae6841c",
+      "tag": "v2.0.9a13",
+      "parsed_at": "2026-11-22T01:26:51.141426+00:00"
+    },
+    {
       "commit": "ab7415bc36d77a937bb03392c2a3bd3123d9fd10",
       "tag": "release-v2.0.15",
       "parsed_at": "2026-10-21T03:22:58.529271+00:00"
